@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Azoom car rental employee page</title>
+        <link rel="stylesheet" href="Azoom.css">
+    </head>
+    <body>
+        <header>
+            <h1>Azoom Car rental (Check Vehicles)</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Vehicle Inspection</h2>
+                <form id="inspection-form">
+                    <label for="reservation-number">Reservation Number:</label>
+                    <input type="text" id="reservation-number" required>
+
+                    <label for="defects">Any defects?</label>
+                    <input type="checkbox" id="defects">
+
+                    <div id="isDefects" class="hidden">
+                        <label for="defectsFound">Insert pictures of defects</label>
+                        <input type="file" id="defects-found" accept="image/*" multiple>
+                    </div>
+
+                    <button type="submit" id="submit-button">Generate PRN</button>
+                </form>
+            </section>
+        </main>
+        <script src="Azoom_Review.js"></script>
+    </body>

@@ -1,0 +1,141 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: lightblue;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    position: relative;
+    width: 100%; /* Ensure nav spans the full width of the page */
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensure nav spans the full width of the page */
+}
+
+ul li {
+    position: relative;
+    margin: 0 15px;
+    flex-grow: 1;
+}
+
+ul li div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.dropdown {
+    display: inline-block;
+    justify-content: center;
+}
+
+.dropdown button{
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: darkgray;
+}
+
+.dropdown a {
+    background-color: darkgray;
+}
+
+/* Image styles */
+
+#Home_car {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* For Forms */
+form, div label, div input  {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+
+form label, form input, form select, form button {
+    margin: 0.5em 0;
+}
+
+.form-buttons, #return-button {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.form-buttons button, #return-button {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+#submit-button, #submit-payment, #return-button {
+    background-color: lightgreen;
+}
+
+#reset-button {
+    background-color: pink;
+}
+
+.hidden {
+    display: none;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    padding: 100px;
+}
+
+#login-button {
+    background-color: lightgreen;
+    padding: 30px;
+    margin: 50px;
+}
+

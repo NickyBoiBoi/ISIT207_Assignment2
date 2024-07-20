@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Azoom car rental customer payment page</title>
+        <link rel="stylesheet" href="Azoom.css">
+    </head>
+    <body>
+        <header>
+            <h1>Payment</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Make a Payment!</h2>
+                <form id="payment-form">
+                    <label for="paymentRef">Payment Reference Number:</label>
+                    <input type="number" id="paymentRef" required>
+
+                    <label for="previousInfo">Use Saved Credit Card</label>
+                    <input type="checkbox" id="previousInfo" checked>
+
+                    <div id="newCreditCardInfo" class="hidden">
+                        <label for="cardNumber">Credit Card Number:</label>
+                        <input type="text" id="cardNumber" name="cardNumber"><br>
+
+                        <label for="expiryDate">Expiry Date:</label>
+                        <input type="month" id="expiryDate" name="expiryDate"><br>
+
+                        <label for="cvv">CVV:</label>
+                        <input type="number" id="cvv" name="cvv"><br>
+                    </div>
+
+                    <label for="submit-payment">Submit Payment</label>
+                    <div class="form-buttons">
+                        <button type="reset" id="reset-button">Clear Form</button>
+                        <button type="submit" id="submit-payment">Submit Payment</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <script src="Azoom_Payment.js"></script>
+    </body>
