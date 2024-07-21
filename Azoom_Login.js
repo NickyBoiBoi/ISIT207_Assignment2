@@ -27,3 +27,14 @@ document.getElementById("login-form").addEventListener("submit", function(event)
         document.getElementById("password").value = "";
     }
 });
+
+//Add new login details when user clicks on create account button
+function addLoginDetails(){
+    let newEmail = document.getElementById("email").value;
+    let newPassword = document.getElementById("password").value;
+
+    let newLogin = {email: newEmail, password: newPassword};
+    loginDetails.push(newLogin);
+
+    alert("New login details added successfully!");
+};
