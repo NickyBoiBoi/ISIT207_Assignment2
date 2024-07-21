@@ -37,4 +37,8 @@ function addLoginDetails(){
     loginDetails.push(newLogin);
 
     alert("New login details added successfully!");
+
+    //Clear form after account creation
+    document.getElementById("email").value = "";
+    document.getElementById("password").value = "";
 };
