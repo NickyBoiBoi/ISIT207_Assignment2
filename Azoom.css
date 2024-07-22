@@ -19,7 +19,7 @@ nav {
     width: 100%; /* Ensure nav spans the full width of the page */
 }
 
-ul {
+ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -30,7 +30,7 @@ ul {
 
 ul li {
     position: relative;
-    margin: 0 0.9375em; /* 15px to em */
+    margin: 0 15px;
     flex-grow: 1;
 }
 
@@ -45,10 +45,10 @@ ul li div {
     justify-content: center;
 }
 
-.dropdown button {
+.dropdown button{
     background-color: grey;
     color: white;
-    padding: 0.625em 0.9375em; /* 10px 15px to em */
+    padding: 10px 15px;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -59,18 +59,18 @@ ul li div {
     display: block;
     color: black;
     text-decoration: none;
-    padding: 0.625em 0.9375em; /* 10px 15px to em */
+    padding: 10px 15px;
 }
 
 .dropdown .content {
     display: none;
     position: absolute;
     background-color: aqua;
-    min-width: 6.25em; /* 100px to em */
-    box-shadow: 0.125em 0.125em 0.3125em; /* 2px 2px 5px to em */
+    min-width: 100px;
+    box-shadow: 2px 2px 5px;
 }
 
-.dropdown:hover .content {
+.dropdown:hover .content{
     display: block;
 }
 
@@ -83,6 +83,7 @@ ul li div {
 }
 
 /* Image styles */
+
 #Home_car {
     display: block;
     max-width: 100%;
@@ -90,15 +91,15 @@ ul li div {
 }
 
 /* For Forms */
-form, div label, div input {
+form, div label, div input  {
     display: flex;
     flex-direction: column;
-    width: 31.25em; /* 500px to em */
+    width: 500px;
     margin: auto;
 }
 
 form label, form input, form select, form button {
-    margin: 0.3125em 0; /* 5px to em */
+    margin: 0.5em 0;
 }
 
 .form-buttons, #return-button {
@@ -106,11 +107,10 @@ form label, form input, form select, form button {
     justify-content: space-between;
     justify-content: center;
 }
-
 .form-buttons button, #return-button {
     flex: 1;
-    padding: 0.625em; /* 10px to em */
-    margin: 0.625em; /* 10px to em */
+    padding: 10px;
+    margin: 10px;
 }
 
 #submit-button, #submit-payment, #return-button {
@@ -128,19 +128,19 @@ form label, form input, form select, form button {
 #login-form {
     display: flex;
     flex-direction: column;
-    width: 31.25em; /* 500px to em */
+    width: 500px;
     margin: auto;
-    padding: 6.25em; /* 100px to em */
+    padding: 100px;
 }
 
 #login-button, #submit-button {
     background-color: lightgreen;
-    padding: 1.875em; /* 30px to em */
-    margin: 3.125em; /* 50px to em */
+    padding: 30px;
+    margin: 50px;
 }
 
 #create-button {
     background-color: lightskyblue;
-    padding: 1.875em; /* 30px to em */
-    margin: 3.125em; /* 50px to em */
+    padding: 30px;
+    margin: 50px;
 }
