@@ -133,7 +133,7 @@ form label, form input, form select, form button {
     padding: 100px;
 }
 
-#login-button {
+#login-button, #submit-button {
     background-color: lightgreen;
     padding: 30px;
     margin: 50px;
