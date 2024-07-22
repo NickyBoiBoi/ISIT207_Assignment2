@@ -119,6 +119,8 @@ form label, form input, form select, form button {
 
 #reset-button {
     background-color: pink;
+    padding: 30px;
+    margin: 50px;
 }
 
 .hidden {
