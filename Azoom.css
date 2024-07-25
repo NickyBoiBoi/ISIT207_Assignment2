@@ -102,12 +102,12 @@ form label, form input, form select, form button {
     margin: 0.5em 0;
 }
 
-.form-buttons, #return-button {
+.form-buttons, #return-button, #submit-payment {
     display: flex;
     justify-content: space-between;
     justify-content: center;
 }
-.form-buttons button, #return-button {
+.form-buttons button, #return-button, #submit-payment {
     flex: 1;
     padding: 10px;
     margin: 10px;
