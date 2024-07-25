@@ -102,19 +102,25 @@ form label, form input, form select, form button {
     margin: 0.5em 0;
 }
 
-.form-buttons, #return-button, #submit-payment {
+.form-buttons, #return-button {
     display: flex;
     justify-content: space-between;
     justify-content: center;
 }
-.form-buttons button, #return-button, #submit-payment {
+.form-buttons button, #return-button {
     flex: 1;
     padding: 10px;
     margin: 10px;
 }
 
-#submit-button, #submit-payment, #return-button {
+#submit-button, #return-button {
     background-color: lightgreen;
+}
+
+#submit-payment {
+    background-color: lightgreen;
+    padding: 30px;
+    margin: 50px;
 }
 
 #reset-button {
